@@ -13,7 +13,6 @@ class Song
     @name=name
     self.artist=(artist) if artist.class==Artist
     self.genre=(genre) if genre.class==Genre
-    save
 end
 
   def self.all
